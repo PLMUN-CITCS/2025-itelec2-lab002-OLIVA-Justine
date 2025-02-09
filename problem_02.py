@@ -4,7 +4,13 @@
 # Square the Number Program
 
 def main():
-    pass # replace this line with all of your code
+    print("Square the Number Program") # replace this line with all of your code
+
+    number = int(input("Enter a number: "))
+
+    print(f"The square of {number} is {(number*number):.2f}")
+
+    
 
 if __name__ == "__main__":
     main()
